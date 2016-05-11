@@ -2,10 +2,10 @@
 ## functions do
 
 ## This functions returns a list of functions that:
-## * set value of matrix
-## * get the value of a matrix
-## * set the value of the inverse of the matrix
-## * get the value of the inverse of a matrix 
+##  set value of matrix
+##  get the value of a matrix
+##  set the value of the inverse of the matrix
+##  get the value of the inverse of a matrix 
 makeCacheMatrix <- function(x = matrix()) {
     Inv <- NULL
     set <- function(y) {
